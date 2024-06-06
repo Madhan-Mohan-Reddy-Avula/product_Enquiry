@@ -1,0 +1,23 @@
+Setup Firebase for your project
+install latest nvm
+
+	https://github.com/coreybutler/nvm-windows
+install the latest node by using nvm
+
+
+project creation----
+
+npm install -g ionic@latest
+
+ionic start titan_sample blank --type=react --capacitor
+
+ionic serve
+
+npm install @capacitor/android
+npx cap add android
+ionic build
+npx cap sync android
+
+---Android Studio IDE set up
+
+npx cap open android
